@@ -1,6 +1,6 @@
 Package: phoxy
 Title: Easily Download, Ingest, and Manipulate the Phoenix Event Dataset
-Version: 0.1
+Version: 0.2
 Authors@R: as.person("Andy Halterman <ahalterman0@gmail.com> [aut, cre]")
 Description: The Phoenix event data set records social and political events
     automatically extracted from news reporting. \code{phoxy} provides
