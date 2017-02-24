@@ -64,7 +64,7 @@ ingest_phoenix <- function(dir, phoenix_version = "auto", read_func = "read.csv"
   eventColClasses <- c(rep("integer", 5), rep("character", 11), "numeric", "character", "numeric", 
                        "numeric", rep("character", 6))
   message("Process complete")
-  return(events)
+  return(dplyr::tbl_df(events))
 }
 
 
